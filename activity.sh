@@ -1,15 +1,15 @@
 #!/bin/bash
 
-#SBATCH --job-name=mmidb_activity_high1.0_low4.0
-#SBATCH --output=/home/s194101/TCAV-BENDR-own/experiment_logs/mmidb_activity-%J.out
-#SBATCH --cpus-per-task=16
-#SBATCH --mem=12gb
+#SBATCH --job-name=mmidb_activity_high1.0_low4.0_4
+#SBATCH --output=/home/s194101/TCAV-BENDR-own/mmidb_activity_4-%J.out
+#SBATCH --cpus-per-task=30
+#SBATCH --mem=120gb
 #SBATCH --gres=gpu:1
 #SBATCH --mail-user=otto@skytop.dk
 #SBATCH --mail-type=BEGIN,END,FAIL
 #SBATCH --partition=titans
 #SBATCH --export=ALL
-#SBATCH --time=04:00:00
+#SBATCH --time=08:00:00
 
 ## INFO
 

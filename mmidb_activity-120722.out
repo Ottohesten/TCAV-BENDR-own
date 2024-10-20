@@ -1,0 +1,34 @@
+Node: comp-gpu14
+Start: 2024-10-20-18:04:42
+Working dir: /home/s194101/TCAV-BENDR-own
+
+Downloading data from 'https://osf.io/3bxqt/download?version=2' to file '/tmp/tmp1bgtqmg7/temp.zip'.
+Downloading data from 'https://osf.io/7ve8g/download?version=4' to file '/tmp/tmp6djyurkt/temp.zip'.
+High pass 1.0
+Low pass 4.0
+0it [00:00, ?it/s]1it [12:05, 725.94s/it]S090R11: : 1it [12:05, 725.94s/it]S090R11: : 2it [12:11, 302.35s/it]S090R09: : 2it [12:11, 302.35s/it]S090R09: : 3it [12:50, 181.81s/it]S009R13: : 3it [12:50, 181.81s/it]S009R13: : 4it [13:14, 119.75s/it]S003R01: : 4it [13:14, 119.75s/it]S003R01: : 5it [27:48, 391.54s/it]S090R03: : 5it [27:48, 391.54s/it]S090R03: : 6it [27:52, 260.05s/it]S031R14: : 6it [27:52, 260.05s/it]S031R14: : 7it [28:36, 189.23s/it]S031R09: : 7it [28:36, 189.23s/it]S031R09: : 8it [28:41, 130.46s/it]S090R13: : 8it [28:41, 130.46s/it]S090R13: : 9it [28:47, 91.82s/it] S031R12: : 9it [28:47, 91.82s/it]S031R12: : 10it [30:58, 103.70s/it]S083R03: : 10it [30:58, 103.70s/it]S083R03: : 11it [32:44, 104.53s/it]S089R01: : 11it [32:44, 104.53s/it]S089R01: : 12it [33:56, 94.69s/it] S089R02: : 12it [33:56, 94.69s/it]S089R02: : 13it [35:24, 92.71s/it]S089R07: : 13it [35:24, 92.71s/it]S089R07: : 14it [45:19, 244.25s/it]S028R01: : 14it [45:19, 244.25s/it]S028R01: : 15it [45:20, 171.10s/it]S055R01: : 15it [45:20, 171.10s/it]S055R01: : 16it [46:37, 142.71s/it]S055R11: : 16it [46:37, 142.71s/it]S055R11: : 17it [1:00:46, 354.93s/it]S052R02: : 17it [1:00:46, 354.93s/it]S052R02: : 18it [1:00:47, 248.67s/it]S058R07: : 18it [1:00:47, 248.67s/it]S058R07: : 19it [1:00:50, 174.75s/it]S025R05: : 19it [1:00:50, 174.75s/it]S025R05: : 20it [1:00:51, 122.65s/it]S052R08: : 20it [1:00:51, 122.65s/it]S052R08: : 21it [1:00:54, 86.83s/it] S025R11: : 21it [1:00:54, 86.83s/it]S025R11: : 22it [1:00:58, 62.09s/it]S052R01: : 22it [1:00:58, 62.09s/it]S052R01: : 23it [1:14:37, 289.03s/it]S036R08: : 23it [1:14:37, 289.03s/it]S036R08: : 24it [1:14:48, 205.69s/it]S036R09: : 24it [1:14:48, 205.69s/it]S036R09: : 25it [1:15:09, 150.20s/it]S060R10: : 25it [1:15:09, 150.20s/it]S060R10: : 26it [1:27:45, 332.08s/it]S004R06: : 26it [1:27:45, 332.08s/it]S004R06: : 27it [1:28:31, 246.30s/it]S004R01: : 27it [1:28:31, 246.30s/it]S004R01: : 28it [1:35:08, 291.24s/it]S079R10: : 28it [1:35:08, 291.24s/it]S079R10: : 29it [1:35:12, 205.24s/it]S079R02: : 29it [1:35:12, 205.24s/it]S079R02: : 30it [1:36:29, 166.82s/it]S079R01: : 30it [1:36:29, 166.82s/it]S079R01: : 31it [1:44:44, 265.09s/it]S107R01: : 31it [1:44:44, 265.09s/it]S107R01: : 32it [2:04:47, 546.71s/it]S032R13: : 32it [2:04:47, 546.71s/it]S032R13: : 33it [2:06:05, 406.03s/it]S032R02: : 33it [2:06:05, 406.03s/it]S032R02: : 34it [2:07:06, 302.53s/it]S032R14: : 34it [2:07:06, 302.53s/it]S032R14: : 35it [2:31:52, 657.42s/it]S080R01: : 35it [2:31:52, 657.42s/it]S080R01: : 36it [2:32:40, 474.55s/it]S013R12: : 36it [2:32:40, 474.55s/it]S013R12: : 37it [2:33:43, 351.16s/it]S021R07: : 37it [2:33:43, 351.16s/it]S021R07: : 38it [2:38:16, 327.69s/it]S021R09: : 38it [2:38:16, 327.69s/it]S021R09: : 39it [2:40:11, 264.04s/it]S064R07: : 39it [2:40:11, 264.04s/it]S064R07: : 40it [2:40:57, 198.43s/it]S014R02: : 40it [2:40:57, 198.43s/it]S014R02: : 41it [2:41:16, 144.76s/it]S051R13: : 41it [2:41:16, 144.76s/it]/home/s194101/TCAV-BENDR-own/src/source_localization/utils.py:23: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
+  raw = mne.io.read_raw_edf(edf_file_path, verbose=False, preload=True)
+/home/s194101/TCAV-BENDR-own/src/source_localization/utils.py:23: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
+  raw = mne.io.read_raw_edf(edf_file_path, verbose=False, preload=True)
+/home/s194101/TCAV-BENDR-own/src/source_localization/utils.py:23: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
+  raw = mne.io.read_raw_edf(edf_file_path, verbose=False, preload=True)
+/home/s194101/TCAV-BENDR-own/src/source_localization/utils.py:23: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
+  raw = mne.io.read_raw_edf(edf_file_path, verbose=False, preload=True)
+/home/s194101/TCAV-BENDR-own/src/source_localization/utils.py:23: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
+  raw = mne.io.read_raw_edf(edf_file_path, verbose=False, preload=True)
+/home/s194101/TCAV-BENDR-own/src/source_localization/utils.py:23: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
+  raw = mne.io.read_raw_edf(edf_file_path, verbose=False, preload=True)
+/home/s194101/TCAV-BENDR-own/src/source_localization/utils.py:23: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
+  raw = mne.io.read_raw_edf(edf_file_path, verbose=False, preload=True)
+/home/s194101/TCAV-BENDR-own/src/source_localization/utils.py:23: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
+  raw = mne.io.read_raw_edf(edf_file_path, verbose=False, preload=True)
+/home/s194101/TCAV-BENDR-own/src/source_localization/utils.py:23: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
+  raw = mne.io.read_raw_edf(edf_file_path, verbose=False, preload=True)
+/home/s194101/TCAV-BENDR-own/src/source_localization/utils.py:23: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
+  raw = mne.io.read_raw_edf(edf_file_path, verbose=False, preload=True)
+/home/s194101/TCAV-BENDR-own/src/source_localization/utils.py:23: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
+  raw = mne.io.read_raw_edf(edf_file_path, verbose=False, preload=True)
+/home/s194101/TCAV-BENDR-own/src/source_localization/utils.py:23: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
+  raw = mne.io.read_raw_edf(edf_file_path, verbose=False, preload=True)
+S051R13: : 42it [3:38:47, 1136.61s/it]S037R01: : 42it [3:38:47, 1136.61s/it]S037R01: : 43it [3:38:59, 799.04s/it] S102R14: : 43it [3:38:59, 799.04s/it]S102R14: : 44it [3:39:24, 567.07s/it]S096R03: : 44it [3:39:24, 567.07s/it]S096R03: : 45it [3:39:30, 398.57s/it]S102R03: : 45it [3:39:30, 398.57s/it]S102R03: : 46it [3:39:41, 282.52s/it]S037R04: : 46it [3:39:41, 282.52s/it]S037R04: : 47it [3:53:18, 442.76s/it]S108R01: : 47it [3:53:18, 442.76s/it]S108R01: : 48it [3:54:53, 338.27s/it]S108R07: : 48it [3:54:53, 338.27s/it]S108R07: : 49it [3:55:05, 240.44s/it]S053R12: : 49it [3:55:05, 240.44s/it]slurmstepd: error: *** JOB 120722 ON comp-gpu14 CANCELLED AT 2024-10-20T22:04:50 DUE TO TIME LIMIT ***
+slurmstepd: error: Detected 833 oom-kill event(s) in StepId=120722.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.

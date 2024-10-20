@@ -17,9 +17,14 @@ subjects_dir, subject, trans, src_path, bem_path = get_fsaverage()
 
 random_edf_file_path = 'notebooks/S001R03.edf' 
 # mmidb_path = Path(r"/home/s194260/BENDR-XAI/data/eegmmidb/files")
-mmidb_path = Path(r"C:\Users\Otto\OneDrive - Danmarks Tekniske Universitet\DTU\Kurser\Bachelors\data\mmidb\files")
-parcellation_name = "aparc.a2009s"
-snr = 1.0
+mmidb_path = Path("/scratch/agjma/eegmmidb/files")
+# mmidb_path = Path(r"C:\Users\Otto\OneDrive - Danmarks Tekniske Universitet\DTU\Kurser\Bachelors\data\mmidb\files")
+
+parcellation_name = "HCPMMP1_combined"
+snr = 100.0
+
+# parcellation_name = "aparc.a2009s"
+# snr = 1.0
 
 info = get_raw(random_edf_file_path, filter=True).info # Just need one raw to get info
 src = get_src(src_path)
@@ -42,6 +47,7 @@ dataset_activity = defaultdict(lambda: {})
 
 pbar = tqdm()
 
+print("Calculating activity for each label in each window for each file")
 for (dirpath, _, filenames) in os.walk(mmidb_path):
     for filename in filenames:
         if filename.endswith(".edf"):

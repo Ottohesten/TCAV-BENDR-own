@@ -164,9 +164,12 @@ if __name__ == '__main__':
     PARCELLATION = 'HCPMMP1_combined'
 
     # argparse
-    DATA_PATH_RAW = '/home/williamtheodor/Documents/DL for EEG Classification/data/eegmmidb (raw)/files/'
-    DATA_PATH_CONCEPTS = '/home/williamtheodor/Documents/DL for EEG Classification/data/sanity check concepts MMIDB/'
-    ACTIVTY_DICT_PATH = '/home/williamtheodor/Documents/DL for EEG Classification/data/'
+    # DATA_PATH_RAW = '/home/williamtheodor/Documents/DL for EEG Classification/data/eegmmidb (raw)/files/'
+    DATA_PATH_RAW = "/scratch/agjma/eegmmidb/files/"
+    # DATA_PATH_CONCEPTS = '/home/williamtheodor/Documents/DL for EEG Classification/data/sanity check concepts MMIDB/'
+    DATA_PATH_CONCEPTS = 'sanity_check_concepts_MMIDB/'
+    # ACTIVTY_DICT_PATH = '/home/williamtheodor/Documents/DL for EEG Classification/data/'
+    ACTIVTY_DICT_PATH = 'mmidb_HCPMMP1_combined/'
 
     # TODO: Update to fit TUH activity dict
     activity_dict = load_mmidb_data_dict(ACTIVTY_DICT_PATH, PARCELLATION, SNR, chop=True)
