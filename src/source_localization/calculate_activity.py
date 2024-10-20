@@ -1,6 +1,6 @@
 import os
 from collections import defaultdict
-if os.getcwd().split("/")[-1] != 'BENDR-XAI': os.chdir("../")
+# if os.getcwd().split("/")[-1] != 'BENDR-XAI': os.chdir("../")
 
 import mne
 import numpy as np
@@ -16,7 +16,8 @@ from pathlib import Path
 subjects_dir, subject, trans, src_path, bem_path = get_fsaverage()
 
 random_edf_file_path = 'notebooks/S001R03.edf' 
-mmidb_path = Path(r"/home/s194260/BENDR-XAI/data/eegmmidb/files")
+# mmidb_path = Path(r"/home/s194260/BENDR-XAI/data/eegmmidb/files")
+mmidb_path = Path(r"C:\Users\Otto\OneDrive - Danmarks Tekniske Universitet\DTU\Kurser\Bachelors\data\mmidb\files")
 parcellation_name = "aparc.a2009s"
 snr = 1.0
 
